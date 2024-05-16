@@ -1,0 +1,47 @@
+body{
+        margin: 0;
+}
+nav, footer {
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+footer p {
+    font-size: 20px;
+    margin: 20px auto;
+}
+a:hover {
+    background-color: white;
+    color: rgb(140, 163, 182);
+}
+img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+a:link {
+    text-decoration: none;
+}
+a:link, a:visited {
+    background-color: #5fa8d3;
+    color: white;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+  }
+h1 {
+    text-align: center;
+}
+main p {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+a {
+    font-size: 1.5em;
+}
+img:hover {
+    transform: scaleX(-1);
+  }
