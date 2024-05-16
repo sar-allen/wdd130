@@ -52,6 +52,7 @@ header{
 }
 .join:hover{
     color: #FFFFFF;
+    background-color: #1B4965;
 }
 .msg{
     color: #1B4965;
