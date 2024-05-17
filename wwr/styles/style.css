@@ -55,10 +55,11 @@ header{
     background-color: #1B4965;
 }
 .msg{
-    color: #1B4965;
+    color: #FFFFFF;
 }
 .msg h2{
-    color: #1B4965;
+    color: #FFFFFF;
+    background-color: #1B4965;
 }
 .msg p{
     background-color: #1B4965;
@@ -83,4 +84,13 @@ footer p a:hover{
 }
 .icon{
     width: 80px; 
+}
+.bio{
+    color: #FFFFFF;
+}
+#background{
+    background-color: #1B4965;
+}
+.logo{
+    width: 80px;
 }
