@@ -20,6 +20,9 @@ nav a:hover{
 h4{
     color: #1B4965;
 }
+#hero-img{
+    width: 100%;
+}
 #hero-msg h1{
     text-align: center;
     color: #FFFFFF;
