@@ -20,8 +20,14 @@ body{
     margin:20px;
 }
 .main_img{
-    width: 100%;
-    margin: 0 auto;
+    width: 105%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0; 
+    position: relative;
+    top: -22px;
+    left: -22px;
 }
 div{
     display: inline;
@@ -29,4 +35,5 @@ div{
 }
 .center{
     text-align: center;
+    padding: 5%;
 }
