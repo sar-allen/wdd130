@@ -3,20 +3,21 @@ body{
 }
 .desk{
     border-radius: 50%;
-    border: 15px solid rgb(68, 68, 68);
-    width: 15%;
-    margin-left: 20px;
+    border: 10px solid rgb(68, 68, 68);
+    width: 10%;
+    margin: 0 3%;
 }
 .graphic{
     border-radius: 50%;
-    border: 15px solid rgb(68, 68, 68);
-    width: 15%;
+    border: 10px solid rgb(68, 68, 68);
+    width: 10%;
+    margin: 0 3%;
 }
 .man{
     border-radius: 50%;
-    border: 15px solid rgb(68, 68, 68);
-    width: 15%;
-    margin-right: 50px;
+    border: 10px solid rgb(68, 68, 68);
+    width: 10%;
+    margin: 0 3%; 
 }
 .main_img{
     width: 100%;
@@ -27,12 +28,10 @@ body{
     position: relative;
     top: -22px;
 }
-div{
-    display: inline;
-    width: 50%;
-}
 .center{
     text-align: center;
-    padding: 20%;
-    margin: 15px;
+}
+
+.center img {
+    width: 15%;
 }
