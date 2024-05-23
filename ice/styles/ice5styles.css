@@ -5,20 +5,17 @@ body{
     border-radius: 50%;
     border: 15px solid rgb(68, 68, 68);
     width: 15%;
-    margin: left;
     margin-left: 20px;
 }
 .graphic{
     border-radius: 50%;
     border: 15px solid rgb(68, 68, 68);
     width: 15%;
-    margin: center;
 }
 .man{
     border-radius: 50%;
     border: 15px solid rgb(68, 68, 68);
     width: 15%;
-    margin:right;
     margin-right: 50px;
 }
 .main_img{
