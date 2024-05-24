@@ -1,14 +1,23 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,600;1,600&display=swap');
+.home-title{
+    font-family: Playfair Display, Garamond, serif;
+    font-size: 2em;
+}
 #content{
     max-width: 1600px;
     margin: 0 auto;
 }
 nav{
     background-color: #5fa8d3;
+    font-family: Playfair Display, Garamond, serif;
+    font-size: .8em;
 }
 nav a{
     text-align: center;
     color: #1B4965;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover{
     background-color: #1B4965;
@@ -41,6 +50,10 @@ main section{
 }
 body{
     background-color: #FFFFFF; 
+    font-family: Open Sans, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0; 
 }
 header{
     background-color:#1B4965;
@@ -48,6 +61,8 @@ header{
 .book, .join{
     color: #1B4965;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
 }
 .book:hover{
     background-color: #1B4965;
@@ -59,17 +74,23 @@ header{
 }
 .msg{
     color: #FFFFFF;
+    line-height: 1.5 em;
+    padding: 35px;
 }
 .msg h2{
     color: #FFFFFF;
     background-color: #1B4965;
+    margin:0; 
 }
 .msg p{
     background-color: #1B4965;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer{
     background-color: #5fa8d3;
     color: #1B4965;
+    padding: 25px 50px;
 }
 footer a{
     color: #1B4965;
@@ -85,8 +106,12 @@ footer p{
 footer p a:hover{
     text-decoration: underline;
 }
+footer .social img{
+    padding-top: 15px;
+}
 .icon{
     width: 80px; 
+    padding-top: 10px; 
 }
 .bio{
     color: #FFFFFF;
@@ -96,4 +121,7 @@ footer p a:hover{
 }
 .logo{
     width: 80px;
+}
+#logo_link{
+    padding-top: 5px;
 }
