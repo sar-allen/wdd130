@@ -25,6 +25,7 @@ nav a:hover{
 }
 .home-title{
     background-color: #1B4965;
+    margin-top: 10px;
 }
 h4{
     color: #1B4965;
@@ -63,6 +64,8 @@ header{
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover{
     background-color: #1B4965;
@@ -81,6 +84,8 @@ header{
     color: #FFFFFF;
     background-color: #1B4965;
     margin:0; 
+    font-family: Playfair Display, Garamond, serif;
+    font-size: 1em;
 }
 .msg p{
     background-color: #1B4965;
@@ -91,6 +96,7 @@ footer{
     background-color: #5fa8d3;
     color: #1B4965;
     padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a{
     color: #1B4965;
@@ -124,4 +130,10 @@ footer .social img{
 }
 #logo_link{
     padding-top: 5px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0; 
+}
+.card-img{
+    border: 10px solid #62B6CB
 }
