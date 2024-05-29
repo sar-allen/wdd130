@@ -10,11 +10,10 @@
 }
 .grid-item2{
     grid-column: 1/2;
-    
 }
 .grid-item3{
     grid-column: 2/3;
-    background-color: gainsboro;
-    color:red;
+    background-color: rgb(176, 175, 175);
+    color:rgb(189, 0, 0);
     letter-spacing: 5px;
 }
