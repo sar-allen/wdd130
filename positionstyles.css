@@ -144,24 +144,28 @@
   height: 400px;
 }
 .red5 { 
-  width: 100px; 
+  width: 100%; 
   height: 100px; 
   background-color: red; 
 } 
 .green5 { 
-  width: 100px; 
-  height: 100px; 
+  float: left;
+  width: 200px; 
+  height: 200px; 
   background-color: green; 
+  z-index: 10;
 
 } 
 .yellow5 {
-  width: 100px; 
-  height: 100px; 
+  text-wrap: right;
+  width: 100%; 
+  height: 400px; 
   background-color: gold; 
+  font-family: serif;
 
 } 
 .blue5 {
-  width: 100px; 
+  width: 100%; 
   height: 100px; 
   background-color: blue; 
 } 
@@ -185,7 +189,7 @@
   background-color: gold; 
 } 
 .blue6 {
-  width: 100px; 
+  width: 100%; 
   height: 100px; 
   background-color: blue; 
 } 
